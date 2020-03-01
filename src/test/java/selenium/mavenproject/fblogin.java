@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class fblogin {
 	WebDriver  driver;/*WebDriver is an interface,driver is default object variable,it is global variable declaration,so it can be acceble any where*/
 	public void browser() {
-		System.setProperty("webdriver.gecko.driver","E:\\selenium soft - Copy\\geckodriver.exe" );
+		System.setProperty("webdriver.gecko.driver","E:\\selenium soft - Copy\\geckodriver.exe  " );
 	  driver=new FirefoxDriver();
 	 driver.get("https://www.fb.com");
 	 driver.manage().window().maximize();
